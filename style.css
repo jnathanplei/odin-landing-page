@@ -51,7 +51,26 @@ body {
 }
 
 .part3 {
-    display:flex;
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 100px 150px;
+    margin-top: 100px;
+}
+
+.quote {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: 700;
 }
 
 .part4 {
