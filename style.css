@@ -75,6 +75,31 @@ body {
 
 .part4 {
     display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-banner {
+    display: flex;
+    background: #3882F6;
+    padding: 30px 70px;
+    margin: 100px 50px;
+    border-radius: 5px;
+    gap: 50px;
+}
+
+.banner-button {
+    border: 1px solid #F9FAF8;
+}
+
+.part4-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.part4-header {
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .footer {
@@ -139,7 +164,7 @@ a {
 
 button {
     width: 100px;
-    height: 25px;
+    height: auto;
     background-color: #3882F6;
     border-radius: 5px;
     color: #F9FAF8;
@@ -152,3 +177,4 @@ button {
     justify-content: center;
     align-items: center;
 }
+
