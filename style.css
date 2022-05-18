@@ -13,6 +13,41 @@ body {
 
 .part2 {
     display:flex;
+    flex-direction: column;
+}
+
+.part2-top{
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.part2-bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.part2-pics {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.part2-subtext {
+    display: flex;
+    color: #1F2937
+}
+
+.porsche {
+    display: flex;
+    width: 200px;
+    height: auto;
+    border: 5px solid orange;
+    border-radius: 5px;
 }
 
 .part3 {
@@ -95,4 +130,6 @@ button {
 .button1 {
     display: flex;
     margin-top: auto;
+    justify-content: center;
+    align-items: center;
 }
